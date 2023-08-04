@@ -29,7 +29,7 @@ https://github.com/arksine/moonraker
 
 ### [Enabling Klipper's API socket](https://www.klipper3d.org/API_Server.html)
   By default, the Klipper's API socket is not enabled. In order to use the API server, the file /etc/default/klipper need to be updated form
-
+  Note by Sofronio: You don't need to do that in the latest version of klipper. It's already changed to .sock, not the klippy_uds.
     KLIPPY_ARGS="/home/pi/klipper/klippy/klippy.py /home/pi/printer.cfg -l /tmp/klippy.log"
 To:
 
